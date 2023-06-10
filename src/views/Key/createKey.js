@@ -28,15 +28,15 @@ const CreateKey = () => {
           );
         }
       })
-      .catch(
-        swal("키 생성 실패!", "오류 발생! 경로 확인", "error").then(
-          (result) => {
-            if (result) {
-              window.location.reload();
-            }
-          }
-        )
-      );
+      .catch
+      // swal("키 생성 실패!", "오류 발생! 경로 확인", "error").then(
+      //   (result) => {
+      //     if (result) {
+      //       window.location.reload();
+      //     }
+      //   }
+      // )
+      ();
   };
   const handleCreateSymmetricKey = () => {
     api
@@ -54,15 +54,15 @@ const CreateKey = () => {
           });
         }
       })
-      .catch(
-        swal("키 생성 실패!", "오류 발생! 경로 확인", "error").then(
-          (result) => {
-            if (result) {
-              window.location.reload();
-            }
-          }
-        )
-      );
+      .catch
+      // swal("키 생성 실패!", "오류 발생! 경로 확인", "error").then(
+      //   (result) => {
+      //     if (result) {
+      //       window.location.reload();
+      //     }
+      //   }
+      // )
+      ();
   };
   const handleCreateInputSymmetricKey = () => {
     api
@@ -80,15 +80,15 @@ const CreateKey = () => {
           );
         }
       })
-      .catch(
-        swal("키 생성 실패!", "오류 발생! 경로 확인", "error").then(
-          (result) => {
-            if (result) {
-              window.location.reload();
-            }
-          }
-        )
-      );
+      .catch
+      // swal("키 생성 실패!", "오류 발생! 경로 확인", "error").then(
+      //   (result) => {
+      //     if (result) {
+      //       window.location.reload();
+      //     }
+      //   }
+      // )
+      ();
   };
   return (
     <React.Fragment>

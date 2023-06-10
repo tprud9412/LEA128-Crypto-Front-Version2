@@ -12,7 +12,7 @@ const Main = () => {
   const interval = useRef(null);
 
   useEffect(() => {
-    interval.current = setInterval(cunnetedCheck, 2000);
+    interval.current = setInterval(cunnetedCheck, 5000);
   }, []);
 
   const cunnetedCheck = () => {
